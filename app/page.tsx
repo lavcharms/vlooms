@@ -360,7 +360,7 @@ export default function VloomsWebsite() {
               WhatsApp us your requirements — fabric type, quantity, color. We'll get back to you within minutes with availability and pricing.
             </p>
             <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
-              <WhatsAppBtn phone="919829010380" message="Hi, I want to place a wholesale order. Please share your catalog and pricing." label="WhatsApp: 7222 80 5555" style={{ fontSize: 15, padding: "12px 28px" }} />
+              <WhatsAppBtn phone="919829010380" message="Hi, I want to place a wholesale order. Please share your catalog and pricing." label="WhatsApp: 98290 10380" style={{ fontSize: 15, padding: "12px 28px" }} />
               <a href="tel:+919829010380" style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(255,255,255,0.08)", color: "white", padding: "12px 28px", borderRadius: 50, fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 15, textDecoration: "none", border: "1px solid rgba(255,255,255,0.15)", transition: "all 0.2s" }}
                 onMouseEnter={e => { e.currentTarget.style.background = "rgba(255,255,255,0.15)"; }}
                 onMouseLeave={e => { e.currentTarget.style.background = "rgba(255,255,255,0.08)"; }}>
@@ -382,7 +382,7 @@ export default function VloomsWebsite() {
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
               {[
                 { icon: "📍", label: "Address", value: "87, Tagore Nagar, Below HDFC Bank, Near Aashopa Hospital, DCM, Ajmer Road, Jaipur – 302021, Rajasthan" },
-                { icon: "📱", label: "WhatsApp", value: "7222 80 5555 · 7222 80 4444" },
+                { icon: "📱", label: "WhatsApp", value: "98290 10380 · 9829 01 0380" },
                 { icon: "📞", label: "Direct", value: "+91-9829010380 (Kailash Chandel)" },
                 { icon: "✉️", label: "Email", value: "vedantahomeinterior@gmail.com" },
               ].map(({ icon, label, value }) => (
