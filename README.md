@@ -1,2 +1,167 @@
-# vlooms
-Marketing website for VLOOMS® by Vedanta Home Interior — a Jaipur fabric wholesaler est. 1976
+# VLOOMS® by Vedanta Home Interior
+### *Weaving Dreams, Crafting Elegance*
+
+> **Marketing website** for a Jaipur-based wholesale fabric business established in 1976.  
+> Built as a student summer project by Lav Chandel.
+
+🌐 **Live Site:** [vedantavlooms.in](https://vedantavlooms.in) *(coming soon)*  
+📍 **Location:** Jaipur, Rajasthan, India
+
+---
+
+## 📋 Table of Contents
+
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Roadmap](#roadmap)
+- [Contact](#contact)
+
+---
+
+## About the Project
+
+**VLOOMS®** is the registered brand of **Vedanta Home Interior**, an importer and wholesaler of premium furnishing fabrics and PVC leatherette fabrics for upholstery, operating since **1976** out of Jaipur.
+
+This is a **marketing + catalogue website** (no e-commerce) built to:
+- Showcase the fabric catalogue to potential buyers
+- Make it easy for wholesale clients to send enquiries directly via WhatsApp
+- Establish a professional online presence for the business
+
+---
+
+## Features
+
+- 🧭 **Sticky Frosted-Glass Navbar** — stays accessible while scrolling
+- 🎨 **Animated Hero Section** — floating fabric swatch animations
+- 🏢 **About Section** — company story and heritage since 1976
+- 🗂️ **Fabric Catalogue** — 12 fabrics across 8 categories with live filter
+- 💬 **WhatsApp Enquiry Buttons** — each fabric card pre-fills the fabric name in a WhatsApp message
+- ✅ **Why Us Section** — 6 cards highlighting business strengths
+- 📣 **CTA Banner** — bulk order call-to-action
+- 📬 **Smart Contact Form** — builds a custom WhatsApp message from form inputs
+- 📱 **Fully Mobile Responsive** — works on all screen sizes
+- ✨ **Scroll Animations** — fade-in effects using IntersectionObserver
+- 🔗 **Footer** — all business details, social links, and contact info
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15 (App Router) |
+| Language | TypeScript (JSX style) |
+| Styling | Pure inline CSS (no Tailwind) |
+| Fonts | Playfair Display + DM Sans (Google Fonts) |
+| Hosting | Vercel |
+| Domain | vedantavlooms.in (BigRock) |
+| Version Control | GitHub |
+
+---
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have these installed:
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/vlooms-site.git
+
+# 2. Navigate into the project folder
+cd vlooms-site
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the site.
+
+---
+
+## Project Structure
+
+```
+vlooms-site/
+├── app/
+│   ├── page.tsx          # Main website (all sections)
+│   ├── layout.tsx        # Root layout with font imports
+│   └── globals.css       # Global CSS resets
+├── public/
+│   └── images/           # Fabric photos go here
+├── vedantavlooms.html    # Original standalone HTML version
+├── VloomsWebsite.jsx     # Original React version
+├── package.json
+└── README.md
+```
+
+---
+
+## Deployment
+
+This site is deployed on **Vercel** with a custom domain.
+
+### Steps to deploy:
+1. Push code to GitHub
+2. Go to [vercel.com](https://vercel.com) → Import the GitHub repository
+3. Vercel auto-detects Next.js — click **Deploy**
+4. In Vercel project settings → **Domains** → Add `vedantavlooms.in`
+5. Update DNS records on BigRock to point to Vercel
+
+---
+
+## Roadmap
+
+- [x] Hero section with animated fabric swatches
+- [x] Fabric catalogue with live category filter
+- [x] WhatsApp enquiry integration
+- [x] Mobile responsive design
+- [x] Contact form with smart WhatsApp message builder
+- [ ] Push to GitHub
+- [ ] Deploy on Vercel
+- [ ] Connect custom domain (vedantavlooms.in)
+- [ ] Replace placeholder swatches with real fabric photos
+- [ ] Add Google Maps embed in contact section
+- [ ] Add Gallery page with store photos
+- [ ] Add admin panel for fabric listing updates
+- [ ] SEO optimization + meta tags
+- [ ] Google My Business setup
+- [ ] Blog section
+- [ ] Demo video for resume portfolio
+
+---
+
+## Contact
+
+**Business:** Vedanta Home Interior  
+**Owner:** Kailash Chandel  
+**WhatsApp:** [7222 80 5555](https://wa.me/917222805555) | [7222 80 4444](https://wa.me/917222804444)  
+**Phone:** +91-9829010380  
+**Email:** vedantahomeinterior@gmail.com | vluxelooms@gmail.com  
+**Address:** 87, Tagore Nagar, Below HDFC Bank, Near Aashopa Hospital, DCM, Ajmer Road, Jaipur - 302021
+
+---
+
+## Developer
+
+**Lavanya Chandel** 
+
+
+---
+
+*VLOOMS® is a registered trademark of Vedanta Home Interior.*
+
