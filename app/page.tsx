@@ -50,8 +50,8 @@ function useInView(ref: React.RefObject<Element>) {
   return visible;
 }
 
-function FadeIn({ children, delay = 0, className = "" }) {
-  const ref = useRef();
+function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) {
+  const ref = useRef<HTMLDivElement>(null);
   const visible = useInView(ref);
   return (
     <div ref={ref} className={className} style={{
