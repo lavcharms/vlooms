@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const FABRICS = [
   { id: 1, name: "Premium Velvet", category: "Upholstery", use: "Sofa & Seating", color: "#7c3f8e", bg: "#f3e8ff", desc: "Luxurious soft-touch velvet for high-end sofas and seating. Available in 80+ shades.", tags: ["Sofa", "Luxury", "Soft"] },
@@ -40,7 +40,7 @@ function useScrollY() {
   return y;
 }
 
-function useInView(ref) {
+function useInView(ref: React.RefObject<Element>) {
   const [visible, setVisible] = useState(false);
   useEffect(() => {
     const obs = new IntersectionObserver(([e]) => { if (e.isIntersecting) setVisible(true); }, { threshold: 0.15 });
