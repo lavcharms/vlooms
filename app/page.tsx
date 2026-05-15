@@ -234,7 +234,7 @@ export default function VloomsWebsite() {
             <p style={{ fontSize: 15, lineHeight: 1.8, color: "#aaa", marginBottom: 36 }}>
               We import directly from global textile mills, cutting out middlemen to bring you the finest velvets, PVC leatherettes, suedes, and woven fabrics at true wholesale prices. Every fabric in our store is personally curated for quality and durability.
             </p>
-            <a href="https://wa.me/919829010380?text=Hi, I want to visit your store. Please share timings." target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, color: "#b8895a", fontWeight: 600, fontSize: 14, textDecoration: "none", borderBottom: "1px solid #b8895a", paddingBottom: 2 }}>
+            <a href="https://maps.app.goo.gl/YfJMnJ4QQVzcmZ3A8" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, color: "#b8895a", fontWeight: 600, fontSize: 14, textDecoration: "none", borderBottom: "1px solid #b8895a", paddingBottom: 2 }}>
               Visit our store →
             </a>
           </FadeIn>
@@ -381,8 +381,8 @@ export default function VloomsWebsite() {
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
               {[
-                { icon: "📍", label: "Address", value: "87, Tagore Nagar, Below HDFC Bank, Near Aashopa Hospital, DCM, Ajmer Road, Jaipur – 302021, Rajasthan" },
-                { icon: "📱", label: "WhatsApp", value: "98290 10380 · 9829 01 0380" },
+                { icon: "📍", label: "Address", value: <a href="https://maps.app.goo.gl/YfJMnJ4QQVzcmZ3A8" target="_blank" rel="noopener noreferrer" style={{color: "inherit", textDecoration: "underline", textUnderlineOffset: "3px"}}>87, Tagore Nagar, Below HDFC Bank, Near Aashopa Hospital, DCM, Ajmer Road, Jaipur – 302021, Rajasthan</a> },
+                { icon: "📱", label: "WhatsApp", value: "98290 10380 · 7222 80 5555" },
                 { icon: "📞", label: "Direct", value: "+91-9829010380 (Kailash Chandel)" },
                 { icon: "✉️", label: "Email", value: "vedantahomeinterior@gmail.com" },
               ].map(({ icon, label, value }) => (
@@ -471,8 +471,8 @@ export default function VloomsWebsite() {
             </div>
           </div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <div style={{ fontSize: 12, color: "#444" }}>© 2025 Vedanta Home Interior. All rights reserved.</div>
-            <div style={{ fontSize: 12, color: "#444" }}>vedantavlooms.in</div>
+            <div style={{ fontSize: 12, color: "#444" }}>© 2026 Vedanta Home Interior. All rights reserved. | Website designed & developed by Lavanya Chandel</div>
+            <div style={{ fontSize: 12, color: "#444" }}>vlooms.in</div>
           </div>
         </div>
       </footer>
