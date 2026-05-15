@@ -170,9 +170,9 @@ export default function VloomsWebsite() {
             </div>
 
             <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 58, fontWeight: 700, lineHeight: 1.1, color: "#1a1a1a", marginBottom: 20 }}>
-              Jaipur's Finest<br />
-              <em style={{ color: "#b8895a", fontStyle: "italic" }}>Furnishing</em><br />
-              Fabric House
+              Wholesalers &<br />
+              Importers of Finest<br />
+              <em style={{ color: "#b8895a", fontStyle: "italic" }}>Furnishing</em> Fabrics
             </h1>
 
             <p style={{ fontSize: 16, lineHeight: 1.7, color: "#666", marginBottom: 36, maxWidth: 440 }}>
@@ -229,7 +229,7 @@ export default function VloomsWebsite() {
               Five decades of<br /><em style={{ color: "#b8895a" }}>Weaving Dreams</em>
             </h2>
             <p style={{ fontSize: 15, lineHeight: 1.8, color: "#aaa", marginBottom: 20 }}>
-              Founded in 1976 by Kailash Chandel, Vedanta Home Interior began as a small fabric shop on Ajmer Road. Today, VLOOMS® is Jaipur's most trusted name in imported furnishing fabrics — serving interior designers, furniture manufacturers, and decorators across India.
+              Today, VLOOMS® is Jaipur's most trusted name in imported furnishing fabrics — serving interior designers, furniture manufacturers, and decorators across India.
             </p>
             <p style={{ fontSize: 15, lineHeight: 1.8, color: "#aaa", marginBottom: 36 }}>
               We import directly from global textile mills, cutting out middlemen to bring you the finest velvets, PVC leatherettes, suedes, and woven fabrics at true wholesale prices. Every fabric in our store is personally curated for quality and durability.
