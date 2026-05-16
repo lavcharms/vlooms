@@ -38,9 +38,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ### *Weaving Dreams, Crafting Elegance*
 
 > **Marketing website** for a Jaipur-based wholesale fabric business established in 1976.  
-> Built as a student summer project by Lav Chandel.
+> Built by Lavanya Chandel.
 
-🌐 **Live Site:** [vedantavlooms.in](https://vedantavlooms.in) *(coming soon)*  
+🌐 **Live Site:** [vlooms.in](https://vlooms.in) *(coming soon)*  
 📍 **Location:** Jaipur, Rajasthan, India
 
 ---
@@ -94,7 +94,7 @@ This is a **marketing + catalogue website** (no e-commerce) built to:
 | Styling | Pure inline CSS (no Tailwind) |
 | Fonts | Playfair Display + DM Sans (Google Fonts) |
 | Hosting | Vercel |
-| Domain | vedantavlooms.in (BigRock) |
+| Domain | vlooms.in |
 | Version Control | GitHub |
 
 ---
@@ -155,7 +155,7 @@ This site is deployed on **Vercel** with a custom domain.
 1. Push code to GitHub
 2. Go to [vercel.com](https://vercel.com) → Import the GitHub repository
 3. Vercel auto-detects Next.js — click **Deploy**
-4. In Vercel project settings → **Domains** → Add `vedantavlooms.in`
+4. In Vercel project settings → **Domains** → Add `vlooms.in`
 5. Update DNS records on BigRock to point to Vercel
 
 ---
@@ -167,11 +167,11 @@ This site is deployed on **Vercel** with a custom domain.
 - [x] WhatsApp enquiry integration
 - [x] Mobile responsive design
 - [x] Contact form with smart WhatsApp message builder
-- [ ] Push to GitHub
-- [ ] Deploy on Vercel
-- [ ] Connect custom domain (vedantavlooms.in)
+- [x] Push to GitHub
+- [x] Deploy on Vercel
+- [x] Connect custom domain (vedantavlooms.in)
 - [ ] Replace placeholder swatches with real fabric photos
-- [ ] Add Google Maps embed in contact section
+- [x] Add Google Maps embed in contact section
 - [ ] Add Gallery page with store photos
 - [ ] Add admin panel for fabric listing updates
 - [ ] SEO optimization + meta tags
